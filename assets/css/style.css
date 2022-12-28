@@ -1,0 +1,31 @@
+*{
+  border: 1px solid blue;
+}
+
+#counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sample-title{
+  color: red;
+}
+
+#counter-action {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+}
+
+#counter-reset {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+#soft-reset, #hard-reset{
+  padding: 10px 90px;
+}
