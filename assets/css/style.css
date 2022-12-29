@@ -1,7 +1,14 @@
+/* For debug */
 *{
   border: 1px solid blue;
 }
 
+/* The counter at the center of the page */
+html, body, section, #counter-container{
+  height: 100%;
+}
+
+/* Place the conatiners */
 #counter-container {
   display: flex;
   flex-direction: column;
@@ -9,23 +16,26 @@
   align-items: center;
 }
 
-#sample-title{
+#counter-action, #counter-reset {
+  display: flex;
+  align-items: center;
+}
+
+/* Set text properties */
+#counter-title{
   color: red;
+  font-size: 60px;
+  font-weight: 700;
 }
 
-#counter-action {
-  display: flex;
-  flex-direction: row; 
-  justify-content: center;
+.action-button{
+  font-size: 80px;
 }
 
-#counter-reset {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  /* align-items: center; */
+#counter-monitor {
+  font-size: 60px;
 }
 
-#soft-reset, #hard-reset{
-  padding: 10px 90px;
+.reset-button {
+  font-size: 60px;
 }
