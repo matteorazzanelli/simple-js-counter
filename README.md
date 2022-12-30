@@ -1,12 +1,13 @@
-[![Issues][issues-shield]][https://github.com/matteorazzanelli/simple-js-counter/issues]
-[![LinkedIn][linkedin-shield]][https://linkedin.com/in/m-minerva]
+[![Issues][issues-shield]][issues-url]
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <img src="screenshot.png" alt="Screenshot">
   <h3 align="center">Simple Counter</h3>
-  <p align="center">Project created for Beginner Javascript Super Guide</p>
+  <p align="center">Project created for <strong>Start2Impact</strong> Beginner Javascript Super Guide</p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -62,17 +63,14 @@ Hitting `Hard reset` the user will be able to reset the counter as well the noti
 
 Matteo Razzanelli - matteo.razzanelli89@gmail.it
 
-start2impact personal page: https://talent.start2impact.it/profile/matteo-razzanelli
+Start2impact personal page - https://talent.start2impact.it/profile/matteo-razzanelli
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[issues-shield]: https://img.shields.io/github/issues/matteo-minerva/simple-counter/repo.svg?style=for-the-badge
-[issues-url]:
+[issues-shield]: https://img.shields.io/github/issues/matteorazzanelli/simple-js-counter/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/matteorazzanelli/simple-js-counter/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: 
-[product-screenshot]: /screenshot.png
+[linkedin-url]: https://www.linkedin.com/in/matteo-razzanelli/
