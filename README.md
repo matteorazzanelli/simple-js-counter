@@ -1,5 +1,4 @@
 [![Issues][issues-shield]][issues-url]
-
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
@@ -7,7 +6,7 @@
 <div align="center">
   <img src="screenshot.png" alt="Screenshot">
   <h3 align="center">Simple Counter</h3>
-  <p align="center">Project created for <strong>Start2Impact</strong> Beginner Javascript Super Guide</p>
+  <p align="center">Project created for <strong>Start2Impact</strong> course: <em>Javascript Basic</em></p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -29,9 +28,8 @@ Simple application that works as a counter.
 
 General requirements:
 
-- Develop a JavaScript application that allows the user to increment and decrement the counter value;
-- The user will display 0 as the counter value;
-- Thanks to 2 buttons (+/-) buttons available to change the counter value;
+- The JS application allows the user to increment and decrement the counter value;
+- Two buttons (+/-) are available to change the counter value;
 - The user is also able to perfomr a soft or hard reset.
 
 Technical requirements:
@@ -53,10 +51,10 @@ git clone https://github.com/matteorazzanelli/simple-js-counter
 <!-- USAGE -->
 ## Usage
 
-Hitting the `+` button will increment the counter value and `-` will decrement it.
-The value can go below `0`.
-Hitting `Soft reset` the user will be able to reset the counter only.
-Hitting `Hard reset` the user will be able to reset the counter as well the notifications.
+- Hitting the `+` button will increment the counter value and `-` will decrement it.
+- The value can go below `0`.
+- Hitting `Soft reset` the user will be able to reset the counter only.
+- Hitting `Hard reset` the user will be able to reset the counter as well the notifications.
 
 <!-- CONTACT -->
 ## Contact
