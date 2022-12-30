@@ -43,7 +43,7 @@ Technical requirements:
 1. Clone the repo
 
 ```sh
-git clone https://github.com/matteorazzanelli/simple-js-counter
+git clone https://github.com/matteorazzanelli/simple-js-counter.git
 ```
 
 2. Launch `index.html` with your favorite browser.
