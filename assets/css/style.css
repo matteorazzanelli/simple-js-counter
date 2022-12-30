@@ -1,6 +1,12 @@
 /* For debug */
 *{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+}
+
+/* Variables */
+:root{
+  --notifications-row-displ: -10px;
+  --notifications-col-displ: -40px;
 }
 
 /* The counter at the center of the page */
@@ -8,7 +14,7 @@ html, body, section, #counter-container{
   height: 100%;
 }
 
-/* Place the conatiners */
+/* Main container */
 #counter-container {
   display: flex;
   flex-direction: column;
@@ -16,26 +22,87 @@ html, body, section, #counter-container{
   align-items: center;
 }
 
-#counter-action, #counter-reset {
-  display: flex;
-  align-items: center;
-}
-
-/* Set text properties */
+/* Header */
 #counter-title{
-  color: red;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 5px 20px;
   font-size: 60px;
   font-weight: 700;
+  text-align: center;
 }
 
-.action-button{
+/* Actions */
+#counter-action, #counter-reset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+/* Buttons and notifications  */
+#counter-plus, #counter-minus {
+  display: flex;
+  align-items: flex-start;
+}
+.notifications {
+  font-size: 30px;
+  border-radius: 50%;
+  color: white;
+  padding: 7px 15px;
+}
+#plus-notifications{
+  background-color: green;
+}
+#minus-notifications{
+  background-color: red;
+}
+
+/* Buttons */
+.action-button, #current-value{
   font-size: 80px;
+  font-weight: 500;
 }
 
-#counter-monitor {
-  font-size: 60px;
+#current-value {
+  width: 100px;
+  text-align: center;
+}
+
+.action-button {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  width: 110px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 6px;
+  transition: background-color 0.15s;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.action-button:hover {
+  background-color: rgb(99, 60, 156);
+}
+.action-button:active {
+  box-shadow: none;
 }
 
 .reset-button {
-  font-size: 60px;
+  font-size: 50px;
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(108, 117, 125);
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.reset-button:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
 }
